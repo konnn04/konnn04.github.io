@@ -1,0 +1,114 @@
+*{
+    user-select: none;
+    padding: 0;margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: black;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main{
+    position: relative;
+}
+
+main #bg{
+    transition: background-color 1s ease;
+    position: fixed;
+    top: 0;left: 0;right: 0;bottom: 0;
+    background-color: rgb(0, 0, 0);
+    z-index: -10;
+}
+
+main>section canvas{
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+main>section{
+    transition: all 1s ease;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+}
+
+main>section.inview{
+    opacity: 1;
+}
+
+main .frame-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.frame-1 .stoke{
+    animation: changeColorBorder 5s infinite;
+}
+
+@keyframes changeColorBorder {
+    0%{
+        stroke:rgb(0, 234, 255)
+    }
+    20%{
+        stroke: rgb(255, 87, 87);
+    }
+    40%{
+        stroke: rgb(0, 255, 0);
+    }
+
+    60%{
+        stroke: rgb(255, 0, 179);
+    }
+
+    80%{
+        stroke: rgb(246, 255, 0);
+    }
+
+    100%{
+        stroke:rgb(0, 234, 255)
+    }
+}
+
+main .frame-1 svg{
+    width: 90%;
+    height: 360px;
+}
+
+main .frame-1 p{
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+
+main>section>h1{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: monospace;
+    color: aliceblue;
+    border-left: 3px solid #fff;
+    padding: 6px;
+}
+
+main .frame-2{
+    padding: 2rem;
+}
+
+main .frame-3{
+}
+
+main .frame-4{
+}
+
+main .frame-5{
+}
