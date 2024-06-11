@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Thanh Trieu</h1>
-<h3 align="center">A IT Student at Open University 2022. Front-End, App Developer (Soon Full-stack).</h3>
+<h3 align="center">A IT Student at HCMUS 2022. Front-End, App Developer (Soon Full-stack).</h3>
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/23/81/31/2381317a16d677e250efd5cc5fbc0d3d.gif">
 - 🌱 I’m currently learning **ReactJS, ElectronJS, Django,...**
 
