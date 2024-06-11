@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Thanh Trieu</h1>
 <h3 align="center">A IT Student at Open University 2022. Front-End, App Developer (Soon Full-stack).</h3>
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/23/81/31/2381317a16d677e250efd5cc5fbc0d3d.gif">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=konnn04&label=Profile%20views&color=0e75b6&style=flat" alt="konnn04" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=konnn04" alt="konnn04" /></a> </p>
-
 - 🌱 I’m currently learning **ReactJS, ElectronJS, Django,...**
 
 - 📝 I regularly write articles on [https://www.facebook.com/profile.php?id=61560452625880](https://www.facebook.com/profile.php?id=61560452625880)
