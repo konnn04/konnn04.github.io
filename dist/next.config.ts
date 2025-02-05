@@ -5,8 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/assets',
-  assetPrefix: '/assets/',
+  basePath: '', // Empty string since you're using the root domain
   trailingSlash: true,
 };
 

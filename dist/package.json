@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
-    "export": "next build && next export",
+    "build": "next build && touch out/.nojekyll",
+    "export": "next build",
     "start": "next start",
     "lint": "next lint"
   },
