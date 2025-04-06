@@ -1,0 +1,27 @@
+{
+    "name": "Nguyen Thanh Trieu",
+    "nickname": "Konnn04",
+    "email": "trieukon1011@gmail.com",
+    "socials": {
+        "facebook":{
+            "link": "https://www.facebook.com/konnn.1011/",
+            "username": "konnn.1011"
+        },
+        "github": {
+            "link": "https://github.com/konnn04",
+            "username": "konnn04"
+        },
+        "linkedin": {
+            "link": "https://www.linkedin.com/in/konnn04/",
+            "username": "konnn04"
+        },
+        "youtube": {
+            "link": "https://www.youtube.com/@konnn04",
+            "username": "konnn04"
+        },
+        "discord": {
+            "link": "https://discord.com/users/732157441889927239",
+            "username": "konnn_04"
+        }
+    }    
+}
