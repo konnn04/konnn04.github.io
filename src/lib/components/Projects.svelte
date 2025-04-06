@@ -13,7 +13,7 @@
         try {
             isLoading = true;
             const response = await fetch(
-                "https://konnn04.github.io/konnn04/generated/github_stats.json",
+                "https://konnn04.is-a.dev/konnn04/generated/github_stats.json",
             );
             if (!response.ok) {
                 throw new Error(`Failed to fetch data: ${response.status}`);

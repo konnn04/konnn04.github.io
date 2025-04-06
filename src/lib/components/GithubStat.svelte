@@ -17,7 +17,7 @@
             }
             
             loading = true;
-            const response = await fetch('https://konnn04.github.io/konnn04/generated/github_stats.json');
+            const response = await fetch('https://konnn04.is-a.dev/konnn04/generated/github_stats.json');
             
             if (!response.ok) {
                 throw new Error(`Failed to fetch GitHub stats: ${response.status}`);
