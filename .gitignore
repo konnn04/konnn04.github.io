@@ -23,4 +23,3 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .npmrc
 .svelte-kit
-package-lock.json
