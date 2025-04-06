@@ -1,4 +1,4 @@
-@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 
 :root {
     --bg-color: #121212;
@@ -130,7 +130,7 @@ footer {
 
 *::-webkit-scrollbar
 {
-	width: 5px;
+	width: 10px;
 	background-color: #f5f5f500;
 }
 

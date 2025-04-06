@@ -118,8 +118,8 @@
             </div>
         {:else}
             <div class="no-activity">
-                <i class="bi bi-controller"></i>
-                <span>Not playing anything</span>
+                <i class="bi bi-watch"></i>
+                <span>No current activity</span>
             </div>
         {/if}
     </div>

@@ -117,7 +117,7 @@
   }
   
   .day-item {
-      padding: 8px 10px;
+      padding: 3px 10px;
       font-weight: 600;
       font-size: 14px;
       opacity: 0.6;
@@ -240,7 +240,7 @@
       }
       
       .day-item {
-          padding: 5px;
+          padding: 10px;
           font-size: 12px;
       }
       

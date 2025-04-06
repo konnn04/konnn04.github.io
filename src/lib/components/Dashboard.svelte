@@ -5,6 +5,7 @@
     import Discord from './Discord.svelte';
     import Weather from './Weather.svelte';
     import DiscordServer from './DiscordServer.svelte';
+    import GithubStat from './GithubStat.svelte';
 
     let currentTime = new Date();
 </script>
@@ -13,7 +14,7 @@
     <div class="row g-4">
         <!-- Social Media Links -->
         <div class="col-12">
-            <div class="social-links-container d-flex flex-wrap justify-content-center gap-3">
+            <div class="social-links-container d-flex flex-wrap justify-content-center gap-4">
                 <div class="social-link github wow">
                     <a href="{profile.socials.github.link}" target="_blank" class="d-flex flex-column align-items-center">
                         <i class="bi bi-github"></i>
@@ -52,13 +53,6 @@
                 <DiscordServer />
             </div>
         </div>
-        
-        <!-- Visitor Count -->
-        <div class="masonry-item wow">
-            <div class="dashboard-card visitor-card">
-                <img src="https://count.getloli.com/get/@konnn04?theme=rule34" alt="Visitor Count" />
-            </div>
-        </div>
 
         <!-- Discord Status -->
         <div class="masonry-item wow">
@@ -66,7 +60,6 @@
                 <Discord />
             </div>
         </div>
-                
 
         <!-- Clock -->
         <div class="masonry-item wow">
@@ -75,10 +68,24 @@
             </div>
         </div>
 
+        <!-- Github Stats chiếm -->
+        <div class="masonry-item wow" >
+            <div class="dashboard-card">
+                <GithubStat/>
+            </div>
+        </div>
+
         <!-- Weather -->
         <div class="masonry-item wow">
             <div class="dashboard-card loading-card">
                 <Weather isShowDetails={true} isShowForecast={false} />
+            </div>
+        </div>
+
+        <!-- Visitor Count -->
+        <div class="masonry-item wow">
+            <div class="dashboard-card visitor-card">
+                <img src="https://count.getloli.com/get/@konnn04?theme=rule34" alt="Visitor Count" />
             </div>
         </div>
     </div>
