@@ -1,38 +1,43 @@
-# sv
+# Konnn04 Personal Website
+This is my personal portfolio website built with SvelteKit, showcasing my projects and skills.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## 🚀 Demo
+Check out the live demo: [https://konnn04.is-a.dev/](https://konnn04.github.io)
 
-## Creating a project
+## How to Use These Components
 
-If you're seeing this, you've probably already done this step. Congrats!
+You can now use the `GithubStat` component in your Dashboard or any other component:
+
+## 🛠️ Built With
+
+- [SvelteKit](https://kit.svelte.dev/)
+- [Bootstrap](https://getbootstrap.com/)
+- [GitHub API](https://docs.github.com/en/rest)
+- [Discord API](https://discord.com/developers/docs/intro)
+
+## 🧰 Development
 
 ```bash
-# create a new project in the current directory
-npx sv create
+# Clone the repository
+git clone https://github.com/konnn04/konnn04.github.io.git
 
-# create a new project in my-app
-npx sv create my-app
-```
+# Navigate to project folder
+cd konnn04.github.io
 
-## Developing
+# Install dependencies
+npm install
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# Start development server
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
+# Build for production
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## 📝 License
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+MIT
+
+---
+
+Made with ❤️ by [Trieu Nguyen Thanh](https://github.com/konnn04)
