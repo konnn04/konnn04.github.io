@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto'; // Change adapter
+import adapter from '@sveltejs/adapter-static'; // Change adapter
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
