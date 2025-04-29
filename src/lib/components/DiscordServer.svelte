@@ -102,13 +102,13 @@
                     </div>
                 </div>
                 
-                <div class="detail-item">
+                <!-- <div class="detail-item">
                     <i class="bi bi-shield-lock"></i>
                     <div>
                         <span class="detail-label">Verification</span>
                         <span class="detail-value">{getVerificationLevel(serverData.verificationLevel)}</span>
                     </div>
-                </div>
+                </div> -->
             </div>
             
             <div class="server-footer">

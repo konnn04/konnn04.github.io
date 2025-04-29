@@ -4,7 +4,6 @@
     let visible = true;
     
     onMount(() => {
-      // Hide loading after 1 second
       setTimeout(() => {
         visible = false;
       }, 3000);
